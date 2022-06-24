@@ -6,6 +6,7 @@ const routes = require("./routes/flightRoute");
 
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
 app.use(json());
 
 app.use("/", routes);
