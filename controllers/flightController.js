@@ -37,7 +37,7 @@ flightController.updateOne = (req, res) => {
     id: foundFlight.id,
     title: title || foundFlight.title,
     time: time || foundFlight.time,
-    price: price || foundFlight.pricet,
+    price: price || foundFlight.price,
     date: date || foundFlight.date,
   };
 
