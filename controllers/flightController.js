@@ -5,7 +5,7 @@
 const { data } = require("../models/Flight");
 const flightController = {};
 
-flightController.getAll = async (req, res) => {
+flightController.getAll = (req, res) => {
   return res.json({ data });
 };
 
